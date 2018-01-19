@@ -9,7 +9,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   # text_array = text.split(" ")
-  # matching_letters_array = 
+  # matching_letters_array =
   text.scan(/un\w+ing/)
   # matching_letters = matching_letters_array[0]
   # starting_letters = matching_letters[0]
